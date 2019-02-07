@@ -1,0 +1,20 @@
+{
+  "name": "nodeimo",
+  "description": "testbed for a imo data analystics",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Alex Provencher",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "deploy": "gcloud app deploy",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "@google-cloud/nodejs-repo-tools": "^3.0.0"
+  }
+}
